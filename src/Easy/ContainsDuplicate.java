@@ -1,5 +1,6 @@
 package Easy;
 
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +11,7 @@ import java.util.Map;
  * @author yang.shang
  * @create 2018-08-07 16:43
  **/
-public class ContainsDuplicate {
+public class ContainsDuplicate implements Serializable {
     //空间复杂度O(n),时间复杂度O(n)
     public boolean containsDuplicate(int[] nums) {
         Map<Integer,Integer> map=new HashMap<>();
